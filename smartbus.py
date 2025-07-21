@@ -28,7 +28,7 @@ import time
 # App Configuration
 # ==============================================================================
 st.set_page_config(
-    page_title="SmartBus AI for Halifax",
+    page_title="Rydr AI for Halifax",
     page_icon="🚌",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -102,7 +102,7 @@ with st.spinner('Warming up the AI model... Please wait.'):
 # ==============================================================================
 # User Interface (UI)
 # ==============================================================================
-st.title("🚌 SmartBus AI for Halifax")
+st.title("🚌 Rydr AI for Halifax")
 st.markdown("A proof-of-concept to predict bus demand using real-time conditions. Set the parameters on the left and see the AI's prediction!")
 
 # --- Sidebar for User Inputs ---
